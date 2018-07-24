@@ -8,6 +8,6 @@ class Anagram
   end
   
   def match(word)
-    word.each.split("") {|w| 
+    # word.each.split("") {|w| 
   end
 end
