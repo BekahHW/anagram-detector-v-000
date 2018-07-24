@@ -8,8 +8,9 @@ class Anagram
   end
   
   def match(word)
-    word.each.split("") {|w| 
+    # word.each.split("") {|w| 
    
+   word.each_with_object {|w| w.chars.sort += w}
    
 #     @words_hash = word.each_with_object(Hash.new []) do |w, hash|
 #   hash[w.chars.sort] += [w].flatten
