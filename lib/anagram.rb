@@ -10,7 +10,7 @@ class Anagram
   def match(word)
     # word.each.split("") {|w| 
    
-   word.map.split("") {|w| w.chars.sort += w}
+   word.each.split("") {|w| w.chars.sort += w}
    
 #     @words_hash = word.each_with_object(Hash.new []) do |w, hash|
 #   hash[w.chars.sort] += [w].flatten
